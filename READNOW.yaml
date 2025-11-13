@@ -1,0 +1,21 @@
+#python interpreter can run .yaml(great for ai models can understand to data and information process),.py(mostly python files),.pyx(for cython `py` file to `c` file) files
+
+#(ss.py) -> sentense similarty using `transformers`
+#(ss2.py) -> same ss.py but, test more of `Bert-Models in Transformers`
+
+'''
+(ss3.py) issue on we not use F.cosine_similarity(emb1,emb2).item()
+
+`item()` function singluar is used in torch word cosine_similarity
+`items()` function  pluarar is used in dictionaries`s
+'''
+
+#(ss3.py) -> some limitaion of similary sentence if are not similar is returned `None`
+#example,
+#      ('what is','explain')
+#      ('what is deeplearning' ,'explain deeplearning')
+
+
+#None type can be float range `0.nf` n = 0,1,2,3,4,5,6,7,8,9,...
+
+#if 0.0f is returns one [or] 0 boolean numbers(int(True),int(False))
