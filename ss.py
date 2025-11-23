@@ -35,7 +35,7 @@ def sentence_similarity(sent1, sent2):
 given
 """
 '''
-similarity most of all same if same  `voco` file uses in this `Google Vocolabary` pretarined
+similarity most of all same if same  `vocobliary` file uses in this `Google Vocolabary` pretarined
 '''
 
 #0.7429#0.7429
